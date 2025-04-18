@@ -34,10 +34,10 @@ Install OpenCV using:
 ### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/peihaowang/InteractiveGraphCut.git
-cd InteractiveGraphCut
+git clone https://github.com/tashir0605/Graph-Based-Foreground-Extraction
+cd Graph_Based_Image_Segmentation
 
-3. Build the Project with CMake
+
 
 mkdir build && cd build
 cmake ..
@@ -86,9 +86,4 @@ backSeeds: Vector of background seed pixel coordinates.
 lambda: Balances the region and boundary terms.
 sigma: Controls smoothness (set to -1 to auto-compute).
 perfMetric: Optional pointer to performance logger.
-
-🧾 References
-
-Boykov, Y., & Jolly, M. P. (2001). Interactive graph cuts for optimal boundary & region segmentation of objects in N-D images. ICCV.
-Kolmogorov, V., & Zabih, R. (2004). What energy functions can be minimized via graph cuts? IEEE Transactions on Pattern Analysis and Machine Intelligence.
 
