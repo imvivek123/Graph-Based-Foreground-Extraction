@@ -6,13 +6,13 @@
 </head>
 <body>
 
-  <h1>🖼️ Graph-Based Foreground Extraction</h1>
+  <h1> Graph-Based Foreground Extraction</h1>
 
   <h2>Graph-Based Image Segmentation using Max-Flow/Min-Cut</h2>
 
   <p>This project implements <strong>interactive image segmentation</strong> using the <strong>Graph Cut</strong> method. The user provides an input image and a seed image where foreground (object) and background regions are manually marked. The program constructs a graph where each pixel is a node, applies a max-flow algorithm (Ford-Fulkerson), and segments the image into foreground and background using min-cut.</p>
 
-  <h4>🎨 Seed colors:</h4>
+  <h4> Seed colors:</h4>
   <ul>
     <li><strong>Red</strong> pixels represent foreground seeds.</li>
     <li><strong>Green</strong> pixels represent background seeds.</li>
