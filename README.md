@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Graph-Based Foreground Extraction</title>
+ 
 </head>
 <body>
 
